@@ -34,6 +34,6 @@ void main (void)
 {
 	if (dotClip[0] >= 0.0 || dotClip[1] >= 0.0)
 		discard;
-
+		
     gl_FragColor = color;
 }

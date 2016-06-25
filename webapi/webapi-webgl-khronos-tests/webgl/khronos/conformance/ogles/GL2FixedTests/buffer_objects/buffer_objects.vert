@@ -150,9 +150,9 @@ void main (void)
 {
 	vec3  transformedNormal;
     float alphaFade = 1.0;
-
+	
 	vec4 ecPosition = gtf_Vertex;
-
+	
 	color = gtf_Color;
 	gtf_TexCoord[0] = gtf_MultiTexCoord0;
 	gl_Position = gtf_ModelViewProjectionMatrix * gtf_Vertex;

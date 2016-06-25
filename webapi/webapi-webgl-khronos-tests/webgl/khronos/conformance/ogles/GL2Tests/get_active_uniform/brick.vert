@@ -70,7 +70,7 @@ void main(void) {
 
 	float f = myAttrib1f + myAttrib2f[0] + myAttrib4f[0]
 			  + float(myAttrib1i) + float(myAttrib2i[0]) + float(myAttrib3i[0]) + float(myAttrib4i[0])
-			  + float(myAttrib1b) + float(myAttrib2b[0]) + float(myAttrib3b[0]) + float(myAttrib4b[0])
+			  + float(myAttrib1b) + float(myAttrib2b[0]) + float(myAttrib3b[0]) + float(myAttrib4b[0])		
 			  + myAttrib2m[0][0] + myAttrib3m[0][0] + myAttrib4m[0][0]
 			  + myUniformfv[0] + myUniformfv[1] + myUniformfv[2] + myUniformfv[3] + myUniformfv[4];
 
